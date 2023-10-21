@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    margin: auto;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    margin-top: 15em;
+    width: 50%;
+}
+.githubAdd > a:link, .githubAdd > a:visited{
+    text-decoration: none;
+    background-color: hotpink;
+    padding: 4em 6em;
+    border-radius: 20px;
+    font-size: 30px;
+    color: blueviolet;
+}
+.githubAdd > a:hover{
+    background-color: orangered;
+    color: white;
+    transition: 0.5s;
+}
+.welcome > p{
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 5em;
+}
