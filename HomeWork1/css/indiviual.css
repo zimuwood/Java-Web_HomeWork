@@ -1,0 +1,48 @@
+body{
+    background-image: url('../image/img_indiviual.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: rgba(255, 255, 255, 0.7);
+    box-sizing: border-box;
+    margin-top: 10em;
+    width: 90%;
+}
+img.yanzu{
+    float: left;
+    box-sizing: border-box;
+    height: 30em;
+    margin-right: 1em;
+}
+.words{
+    float: left;
+    box-sizing: border-box;
+    border-radius: 30px;
+    width: 40%;
+    height: 30em;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+}
+.article{
+    font-size: 20px;
+    text-align: left;
+    text-indent: 2em;
+}
+.info{
+    box-sizing: border-box;
+    float: right;
+    border-radius: 30px;
+    width: 30%;
+    height: 30em;
+}
+.infos{
+    font-size: 20px;
+    text-align: left;
+}

@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    background-color: rgba(169, 244, 255, 0.7);
+    box-sizing: border-box;
+    margin-top: 10em;
+    width: 90%;
+}
+.content > p{
+    text-indent: 2em;
+    font-size: 30px;
+}

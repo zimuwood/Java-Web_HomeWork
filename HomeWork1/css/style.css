@@ -1,0 +1,13 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    word-wrap: break-word;
+}
+dl, ol, ul{
+    margin-top: 0;
+    margin-left: -2%;
+}
+li{
+    display: inline-block;
+}
