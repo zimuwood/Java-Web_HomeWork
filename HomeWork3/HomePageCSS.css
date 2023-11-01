@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    height: 250px;
+    background-color: greenyellow;
+}
+.StuBoxLeft{
+    float: left;
+    width: 500px;
+    text-align: center;
+}
+.StuBoxRight{
+    float: left;
+    width: 800px;
+    text-align: center;
+}
+.part2{
+    display: flex;
+}
+.arrA{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+}
+.password{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: darkorange;
+}
+#pswd{
+    display: inline-block;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    border-radius: 4px;
+}
+.searchBox{
+    display: inline-block;
+    height: 100px;
+    width: 300px;
+    background-color: red;
+}
+.search{
+    display: flex;
+    width: 280px;
+    background-color: deepskyblue;
+}
+.search-input{
+    height: 50px;
+    width: 200px;
+    border: 2px solid deepskyblue;
+    font-size: 18px;
+}
+.search-btn{
+    height: 50px;
+    width: 80px;
+    border: 2px solid deepskyblue;
+    background-color: deepskyblue;
+    font-size: 20px;
+    color: white;
+}
+.search-btn:hover{
+    background-color: dodgerblue;
+}
+.part3{
+    display: flex;
+}
+.check-box{
+    height: 300px;
+    width: 200px;
+    background-color: hotpink;
+}
+.calculator{
+    height: 460px;
+    width: 300px;
+    background-color: grey;
+}
+.title{
+    background-color: dodgerblue;
+    color: white;
+    font-weight: bold;
+}
+.framebox{
+    margin: 5%;
+    width: 90%;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 310px 1px #fff;
+    font-size: 30px;
+    line-height: 60px;
+}
+.buttonBox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.buttonBox button{
+    background-color: #ccc;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.buttonBox button:hover{
+    background-color: white;
+}
+.larger{
+    margin: 2%;
+    width: 45%;
+    height: 50px;
+    font-size: 20px;
+}
+.smaller{
+    margin: 1%;
+    width: 21%;
+    height: 50px;
+}
+.btn-Box{
+    text-align: center;
+}

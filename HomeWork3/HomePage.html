@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeWork3</title>
+    <script src="./HomePageJS.js"></script>
+    <script src="./calculator.js"></script>
+    <link rel="stylesheet" href="./HomePageCSS.css">
+</head>
+<body>
+    <div class="part1">
+        <div class="StuBoxLeft">
+            <p>点击按钮以工厂方式创建学生</p>
+            <input type="button" value="快点击我" onclick="Stu1()">
+            <p>点击按钮以构造函数方式创建学生</p>
+            <input type="button" value="快点击我" onclick="Stu2()">
+            <p>点击按钮以原型方式创建学生</p>
+            <input type="button" value="快点击我" onclick="Stu3()">
+        </div>
+        <div class="StuBoxRight">
+            <p class="Stu" id="Stu1"></p>
+            <p class="Stu" id="Stu2"></p>
+            <p class="Stu" id="Stu3"></p>
+        </div>
+    </div>
+
+    <div class="part2">
+        <div class="arrA">
+            请输入a数组:<input type="text" placeholder="请输入a数组" id="arrA">
+            <p>点击按钮展示结果：</p>
+            <button type="button" onclick="findAElm()">点我！</button>
+            <p>a数组中出现最多的是:<span id="Num"></span></p>
+        </div>
+
+        <div class="password">
+            密码：<input type="password" name="密码" id="pswd" placeholder="请输入密码">
+        </div>
+        
+        <div class="searchBox">
+            <p>搜索框：</p>
+            <div class="search">
+                <input type="search" class="search-input" placeholder="手机">
+                <button type="button" class="search-btn">搜索</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="part3">
+        <div class="check-box">
+            全选<input type="checkbox" name="nameAll" id="check-all" onclick="getAll()">name
+            <br><input type="checkbox" name="name" id=1 onclick="checkAll()">小明
+            <br><input type="checkbox" name="name" id=2 onclick="checkAll()">小红
+            <br><input type="checkbox" name="name" id=3 onclick="checkAll()">小蓝
+            <br><input type="checkbox" name="name" id=4 onclick="checkAll()">小bai
+            <br><input type="checkbox" name="name" id=5 onclick="checkAll()">王小二
+        </div>
+
+        <div class="calculator">
+            <p class="title">科学计算器</p>
+            <div class="framebox" id="framebox">0</div>
+            <div class="buttonBox">
+                <div class="btn-Box">
+                    <button type="button" class="larger" id="AC" onclick="AC()">AC</button>
+                    <button type="button" class="larger" id="del" onclick="del()">del</button>
+                </div>
+                <div class="btn-Box">
+                    <button type="button" class="smaller" id="7" onclick="nums(7)">7</button>
+                    <button type="button" class="smaller" id="8" onclick="nums(8)">8</button>
+                    <button type="button" class="smaller" id="9" onclick="nums(9)">9</button>
+                    <button type="button" class="smaller" id="+" onclick="add()">+</button>
+                </div>
+                <div class="btn-Box">
+                    <button type="button" class="smaller" id="4" onclick="nums(4)">4</button>
+                    <button type="button" class="smaller" id="5" onclick="nums(5)">5</button>
+                    <button type="button" class="smaller" id="6" onclick="nums(6)">6</button>
+                    <button type="button" class="smaller" id="-" onclick="min()">-</button>
+                </div>
+                <div class="btn-Box">
+                    <button type="button" class="smaller" id="1" onclick="nums(1)">1</button>
+                    <button type="button" class="smaller" id="2" onclick="nums(2)">2</button>
+                    <button type="button" class="smaller" id="3" onclick="nums(3)">3</button>
+                    <button type="button" class="smaller" id="*" onclick="multiply()">*</button>
+                </div>
+                <div class="btn-Box">
+                    <button type="button" class="smaller" id="0" onclick="nums(0)">0</button>
+                    <button type="button" class="smaller" id="." onclick="dot()">.</button>
+                    <button type="button" class="smaller" id="=" onclick="ans()">=</button>
+                    <button type="button" class="smaller" id="/" onclick="divide()">/</button>
+                </div>
+                <div class="btn-Box">
+                    <button type="button" class="larger" id="x²" onclick="square()">x²</button>
+                    <button type="button" class="larger" id="√x" onclick="sqrt()">√x</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
