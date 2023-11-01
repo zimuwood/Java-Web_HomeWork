@@ -8,3 +8,8 @@
 * 只做了主页面，按照华为官网以及作业要求做的结合
 * 使用html + css完成<br>
 [点击前往作业二主页](HomeWork2/HomePage.html)
+### Java Web作业三
+* 按照颜色分区块对各项要求进行了分配，主要是为完成作业没有注意美观谅解哈
+* 使用html + css + javascript完成
+* 我认为最难的部分是计算器的实现，我用了两百多行才实现，完全原创，嘎嘎嘎<br>
+[点击前往作业三主页](HomeWork3/HomePage.html)
